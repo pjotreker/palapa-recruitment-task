@@ -68,21 +68,23 @@
   flex-grow: 0;
 }
 
-.App-header-logo-picture {
-  /* logo 1 */
-
+.App-header-logo-picture-holder {
+  position: relative;
   width: 62px;
   height: 46px;
+}
 
+.App-header-logo-picture {
   /* Inside auto layout */
 
+  position: relative;
   flex: none;
   order: 0;
   flex-grow: 0;
   background: url(../logo.png);
+  
   height: auto;
   width: 100%;
-  background-color: white;
 }
 
 .App-header-headline {
